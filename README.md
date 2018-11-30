@@ -5,11 +5,6 @@ This project contains relevant files for creating a language model for the Filip
 
 Language model weights and the itos (index -> string) mapping pickle file is available for download [here]()
 
-## Performance:
-__Perplexity: 26.1997__ 
-
-__Accuracy: 0.4403__
-
 The RNN was trained in 4 iterations with the following learning rates:
 
 1. 8
@@ -18,6 +13,12 @@ The RNN was trained in 4 iterations with the following learning rates:
 4. 0.2
 
 The learning rates were determined through the plot_lr() methods of fastai.
+
+## Performance:
+__Perplexity: 26.1997__ 
+
+__Accuracy: 0.4403__
+
 
 ## TODO:
 - [x] Host the language model weights and itos (index -> string vocab pickle file) for the community to reuse the model directly
