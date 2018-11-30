@@ -3,7 +3,7 @@ Language Model for Filipino (Tagalog) Language
 
 This project contains relevant files for creating a language model for the Filipino language from the Filipino (Tagalog) Wikipedia corpus, Wiktionary, and Wikibooks.
 
-Language model weights and the itos (index -> string) mapping pickle file is available for download [here]()
+Language model weights and the itos (index -> string) mapping pickle file is available for download [here](https://github.com/hadrianpaulo/ULMFiT-Tagalog/releases/tag/v0.1)
 
 The RNN was trained in 4 iterations with the following learning rates:
 
